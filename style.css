@@ -1,0 +1,87 @@
+/* Set colors */
+:root {
+    --main-color: #5b8c5a;
+    --light-color: #d5e8d4;
+    --dark-color: #3c5e3b;
+    --text-color: #333;
+    --done-color: #999;
+  }
+  
+  /* Center the content on the page */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+  }
+  
+  /* Style the heading */
+  h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    color: var(--text-color);
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the input field */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid var(--light-color);
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+    color: var(--text-color);
+    background-color: var(--light-color);
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--dark-color);
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Style the to-do list */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the to-do list items */
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: var(--light-color);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--text-color);
+  }
+  
+  /* Style the checkbox */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style completed to-do list items */
+  li span {
+    text-decoration: line-through;
+    color: var(--done-color);
+  }
+  
