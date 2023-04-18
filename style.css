@@ -23,6 +23,7 @@
     text-align: center;
     margin: 0 0 20px;
     color: var(--text-color);
+    /* background-color: #333; */
   }
   
   /* Style the form */
@@ -80,8 +81,8 @@
   }
   
   /* Style completed to-do list items */
-  li span {
+  /* li span {
     text-decoration: line-through;
     color: var(--done-color);
-  }
+  } */
   
